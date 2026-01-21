@@ -6,5 +6,6 @@ int main()
     cin>>a;
     cin>>b;
     cout<<a+b;
+    cout<<endl;
    return 0;
 }
