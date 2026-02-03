@@ -2,27 +2,22 @@
 using namespace std;
 int main()
 {
-    int n=5;
-    // cin>>n;
+    int n;
+    cin>>n;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){ 
-            if(i!=1 and j!=1 and i!=n and j!=n){
-                
-              if(i==2){
-                cout<<j<<" ";
-               }
-               else if(i==3 and j==3){
-                cout<<j*2<<" ";
-               }
-               else {
-                cout<<"3 ";
-               }
-              if(i==4){
-                cout<<i-j+2<<" ";
-               }
-            }
-            else{
+            if(i==1 || j==1 || i==n || j==n){
                 cout<<"1 ";
+            }
+            else if(i==(n+1)/2 and j==(n+1)/2){
+                cout<<i+j<<" ";
+            }
+            else if(i==(n+1)/2){
+                cout<<i<<" ";
+            }else if(i<(n+1)/2){
+                cout<<j<<" ";
+            }else {
+                cout<<n-j+1<<" ";
             }
         }
         cout<<endl;
