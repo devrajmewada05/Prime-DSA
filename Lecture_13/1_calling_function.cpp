@@ -1,5 +1,5 @@
 
-//samjhane ke liye tha.........
+// samjhane ke liye tha.........
 
 // #include <iostream>
 // using namespace std;
