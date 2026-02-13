@@ -22,5 +22,6 @@ int main()
     else{
         cout<<"prime nhi hai";
     }
-   return 0;
+    return 0;
+
 }
