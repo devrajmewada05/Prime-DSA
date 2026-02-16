@@ -27,14 +27,14 @@ int len(int n){
     }
     return ans;
 }
-int reve(int n){
-    int reve=0;
+int revs(int n){
+    int rev=0;
     while(n!=0){
         int r=n%10;
-        reve=reve*10+r;
+        rev=rev*10+r;
         n=n/10;
     }
-    return reve;
+    return rev;
 }
 int main()
 {
@@ -59,6 +59,6 @@ int main()
         }
         n=n/10;
     }
-    cout<<reve(rev)/10<<endl;
+    cout<<revs(rev)/10<<endl;
    return 0;
 }
