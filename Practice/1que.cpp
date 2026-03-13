@@ -31,7 +31,7 @@ int main()
             }
              for(int j=i;j>=1;j--){
                 if(i==1){
-                    cout<<"  ";
+                    cout<<"_ ";
                 }
                 else{
                 cout<<i-j+1<<" ";
